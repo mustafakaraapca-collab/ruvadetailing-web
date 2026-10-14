@@ -9,18 +9,17 @@
 <style>
 :root{--gold:#c99d60;--light:#e6c48f;--bg:#090b0d;--ivory:#f1ede6}
 *{box-sizing:border-box}html,body{padding:0;margin:0;background:var(--bg);color:var(--ivory);font-family:'Montserrat',Arial,sans-serif}a{color:inherit;text-decoration:none}
-.header{position:sticky;top:0;z-index:30;height:75px;display:flex;align-items:center;background:rgba(9,11,13,.97);border-bottom:1px solid rgba(206,157,91,.2);backdrop-filter:blur(12px)}
+.header{position:sticky;top:0;z-index:30;height:67px;display:flex;align-items:center;background:rgba(9,11,13,.97);border-bottom:1px solid rgba(206,157,91,.2);backdrop-filter:blur(12px)}
 .wrap{width:min(980px,calc(100% - 30px));margin:0 auto}.header .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;height:100%}
-.logo{width:min(210px,60vw);height:auto;display:block}.back{font:700 12px 'Oxanium',Arial,sans-serif;letter-spacing:.09em;color:#e7c18b;text-transform:uppercase;white-space:nowrap;border:1px solid rgba(218,168,91,.35);padding:12px 14px}
+.logo{width:min(188px,54vw);height:auto;display:block}.back{font:700 11px 'Oxanium',Arial,sans-serif;letter-spacing:.09em;color:#e7c18b;text-transform:uppercase;white-space:nowrap;border:1px solid rgba(218,168,91,.35);padding:11px 13px}
 .intro{padding:28px 0 4px;display:flex;gap:22px;align-items:flex-end;justify-content:space-between}.eyebrow{color:#d5a86d;font:700 12px 'Oxanium',Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase}.intro h1{font:700 clamp(24px,5vw,42px)/1.08 'Oxanium',Arial,sans-serif;letter-spacing:.035em;margin:9px 0 0;text-transform:uppercase}
 .intro p{max-width:390px;font-size:12px;line-height:1.8;color:#b7b0a7;margin:0}
-#bookingFrame{width:100%;display:block;min-height:1000px;height:1700px;border:0;background:var(--bg)}
-.foot{text-align:center;font:600 11px 'Oxanium',Arial,sans-serif;letter-spacing:.20em;color:#9e815f;padding:0 10px 34px}
-@media(max-width:640px){.header{height:69px}.logo{width:min(184px,60vw)}.back{padding:10px;font-size:11px}.intro{display:block;padding:22px 0 3px}.intro p{margin-top:8px;font-size:12px}.intro h1{font-size:27px}.wrap{width:calc(100% - 26px)}}
+#bookingFrame{width:100%;display:block;min-height:940px;height:1450px;border:0;background:var(--bg)}
+.foot{text-align:center;font:600 11px 'Oxanium',Arial,sans-serif;letter-spacing:.20em;color:#9e815f;padding:0 10px 22px}
+@media(max-width:640px){.header{height:64px}.logo{width:min(172px,53vw)}.back{padding:10px;font-size:10px}.intro{display:block;padding:22px 0 3px}.intro p{margin-top:8px;font-size:12px}.intro h1{font-size:27px}.wrap{width:calc(100% - 26px)}}
 </style></head><body>
 <header class="header"><div class="wrap"><a href="../" aria-label="Ruva ana sayfa"><img class="logo" src="../ruva_logo_gold.png" alt="RUVA Detailing"></a><a class="back" href="../">← ANA SAYFA</a></div></header>
-<main><div class="wrap intro"><div><div class="eyebrow">DENİZLİ / RUVA DETAILING</div><h1>RANDEVUNUZU OLUŞTURUN</h1></div><p>Paketinizi seçin, uygun günü ve saati belirleyin. Randevu talebiniz işletme onayı sonrasında kesinleşir.</p></div>
-<iframe id="bookingFrame" title="RUVA Detailing Randevu" src="https://mustafakaraapca-collab.github.io/oto-yikama-ciro-takip/randevu-ruva.html"></iframe></main>
+<main><iframe id="bookingFrame" title="RUVA Detailing Randevu" src="https://mustafakaraapca-collab.github.io/oto-yikama-ciro-takip/randevu-ruva.html"></iframe></main>
 <footer class="foot">RUVA / DETAYLA FARK YARAT</footer>
 <script>
 window.addEventListener('message',function(event){
